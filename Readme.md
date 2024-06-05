@@ -10,22 +10,30 @@
 
 - Na máquina local
 - Prompt de comando
-- Ir para a pasta do projeto (criar uma)
+- Ir para a pasta do projeto (criar pasta)
 - Digitar: git clone <endereço HTTPS>
 
 # Comandos Git LOCAIS
 
-- Git clone = clona repositório
-- Git status = verifica atualizações
-- Git add  = adiciona arquivos no repositório
-- Git diff = verifica se houve modificações
-- Git diff -- staged = verifica as modificações
-- Git commit -m "nome da up" = atualiza repo
-- Git log = log dos commits
-- Git restore = desfaz modificações
-- Git restore --staged = restaura sem desfazer
+- git clone = clona repositório
+- git status = verifica atualizações
+- git add  = adiciona arquivos no repositório
+- git diff = verifica se houve modificações
+- git diff -- staged = verifica as modificações
+- git commit -m "nome da up" = atualiza repo
+- git log = log dos commits
+- git restore = desfaz modificações
+- git restore --staged = restaura sem desfazer
 
 # Comandos Git REMOTO
 
-- Git remote = mostra o repositório
-- Git push origin master = atualiza repo
+- git remote = mostra o repositório
+- git push origin master = atualiza repo
+- git pull = trás as alts para local
+- git fetch = atualiza local sem modificar
+
+# Branch/Merge
+
+- git branch 'nome-branch' = cria branch
+- git log --online --decorate = mostra branches
+- git checkout 'nome-branch' = muda branch
