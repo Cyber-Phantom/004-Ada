@@ -13,7 +13,7 @@
 - Ir para a pasta do projeto (criar uma)
 - Digitar: git clone <endereço HTTPS>
 
-# Comandos Git
+# Comandos Git LOCAIS
 
 - Git clone = clona repositório
 - Git status = verifica atualizações
@@ -22,3 +22,10 @@
 - Git diff -- staged = verifica as modificações
 - Git commit -m "nome da up" = atualiza repo
 - Git log = log dos commits
+- Git restore = desfaz modificações
+- Git restore --staged = restaura sem desfazer
+
+# Comandos Git REMOTO
+
+- Git remote = mostra o repositório
+- Git push origin master = atualiza repo
