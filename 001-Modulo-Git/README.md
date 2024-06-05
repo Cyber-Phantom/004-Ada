@@ -37,3 +37,4 @@
 - git branch 'nome-branch' = cria branch
 - git log --online --decorate = mostra branches
 - git checkout 'nome-branch' = muda branch
+- git merge 'nome-branch' = merge as branches
